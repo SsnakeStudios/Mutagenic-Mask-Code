@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+	<!-- INFO for art making: ColorString="&amp;" colors the black pixels, DetailColor="" colors the white pixels. -->
+
+	<!-- Tier 1 Objects -->
+	  
+
+
+	<!-- Tier 2 Objects -->
+
+
+
+	<!-- Tier 3 Objects -->
+
+
+
+	<!-- Tier 4 Objects -->
+
+
+	
+	<!-- Tier 5 Objects -->
+	
+	
+	
+	<!-- Tier 6 Objects -->	
+	
+
+
+	<!-- Tier 7 Objects -->
+
+	<object Name="Ssnake.confusionmask_t7" Inherits="BaseMask">
+	
+		<part Name="Render" DisplayName="entropic mask" ColorString="&amp;C" DetailColor="c" Tile="ConfusionMask.bmp" />
+		<part Name="Description" Short="." />
+		
+		<part Name="Armor" AV="0" DV="0" WornOn="Face" />
+		<part Name="Physics" Weight="5" Organic="false" />
+		
+		<!-- Gives Normality Breath equivalent to a meal cooked with 'nullbeard gland paste' -->
+		<part Name="MutationOnEquip" ClassName="MaskBreathConfusion" Level="5" />
+		
+		<!-- At 16 (+0) Ego, Sell value is x, Buy value is y -->
+		<part Name="Commerce" Value="25" />
+		<part Name="Springy" Factor="0.0" />
+		<tag Name="Tier" Value="7" />
+		
+	</object>
+
+	<!-- Corrodod (Acid) mask here -->
+
+
+	<object Name="Ssnake.cryomask_t7" Inherits="BaseMask">
+	
+		<part Name="Render" DisplayName="frigid mask" ColorString="&amp;C" DetailColor="c" Tile="CryoMask.bmp" />
+		<part Name="Description" Short="." />
+		
+		<part Name="Armor" AV="0" DV="0" WornOn="Face" />
+		<part Name="Physics" Weight="5" Organic="false" />
+		
+		<!-- Gives Normality Breath equivalent to a meal cooked with 'nullbeard gland paste' -->
+		<part Name="MutationOnEquip" ClassName="MaskBreath_CryoBeard" Level="5" />
+		
+		<!-- At 16 (+0) Ego, Sell value is x, Buy value is y -->
+		<part Name="Commerce" Value="25" />
+		<part Name="Springy" Factor="0.0" />
+		<tag Name="Tier" Value="7" />
+		
+	</object>
+	
+	
+	<object Name="Ssnake.normalitymask_t7" Inherits="BaseMask">
+	
+		<part Name="Render" DisplayName="empty mask" ColorString="&amp;k" DetailColor="Y" Tile="NormalityMask.bmp" />
+		<part Name="Description" Short="." />
+		
+		<part Name="Armor" AV="0" DV="0" WornOn="Face" />
+		<part Name="Physics" Weight="5" Organic="false" />
+		
+		<!-- Gives Normality Breath equivalent to a meal cooked with 'nullbeard gland paste' -->
+		<part Name="MutationOnEquip" ClassName="MaskBreath_NullBeard" Level="5" />
+		
+		<!-- At 16 (+0) Ego, Sell value is x, Buy value is y -->
+		<part Name="Commerce" Value="25" />
+		<part Name="Springy" Factor="0.0" />
+		<tag Name="Tier" Value="7" />
+		
+	</object>
+	
+	
+	<!-- putrid (Poison) mask here -->
+
+	
+	<object Name="Ssnake.sleepmask_t7" Inherits="BaseMask">
+	
+		<part Name="Render" DisplayName="sleepy mask" ColorString="&amp;B" DetailColor="c" Tile="SleepMask.bmp" />
+		<part Name="Description" Short="." />
+		
+		<part Name="Armor" AV="0" DV="0" WornOn="Face" />
+		<part Name="Physics" Weight="5" Organic="false" />
+		
+		<!-- Gives Normality Breath equivalent to a meal cooked with 'nullbeard gland paste' -->
+		<part Name="MutationOnEquip" ClassName="MaskBreath_SleepBeard" Level="5" />
+		
+		<!-- At 16 (+0) Ego, Sell value is x, Buy value is y -->
+		<part Name="Commerce" Value="25" />
+		<part Name="Springy" Factor="0.0" />
+		<tag Name="Tier" Value="7" />
+		
+	</object>
+	
+	
+	<object Name="Ssnake.stunmask_t7" Inherits="BaseMask">
+	
+		<part Name="Render" DisplayName="block mask" ColorString="&amp;C" DetailColor="W" Tile="StunMask.bmp" />
+		<part Name="Description" Short="." />
+		
+		<part Name="Armor" AV="0" DV="0" WornOn="Face" />
+		<part Name="Physics" Weight="5" Organic="false" />
+		
+		<!-- Gives Normality Breath equivalent to a meal cooked with 'nullbeard gland paste' -->
+		<part Name="MutationOnEquip" ClassName="MaskBreath_StunBeard" Level="5" />
+		
+		<!-- At 16 (+0) Ego, Sell value is x, Buy value is y -->
+		<part Name="Commerce" Value="25" />
+		<part Name="Springy" Factor="0.0" />
+		<tag Name="Tier" Value="7" />
+		
+	</object>
+	
+	<!-- Tier 8 Objects -->
+  
+</objects>

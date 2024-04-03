@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<populations>
+
+<!-- Wish for 'population:findblueprint:namehere' to find where an object can spawn. -->
+<!-- These are the rarities for each tier by weight;
+		
+		Tier | Weight %
+		 1	 -   25
+		 2	 -   20
+		 3	 -   16
+		 4	 -   12
+		 5	 -   9
+		 6	 -   6
+		 7	 -   4 
+		 8	 -   2
+-->
+  
+  <population Name="GeneralMerchantWares" Load="Merge">
+    <group Name="Items" Style="pickone">
+
+    </group>
+  </population>
+
+  
+</populations>
